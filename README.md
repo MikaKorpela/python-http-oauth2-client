@@ -4,6 +4,8 @@ Examples in this repository uses ```rauth```, which is a Python OAuth, OAuth2 an
 
 Authentication service used with the examples in this repository is Keycloak server, running in local machine.
 
+Server application used with the examples in this repository is [spring-boot-2-security-keycloak](https://github.com/MikaKorpela/spring-boot-2-security-keycloak)
+
 ## Keycloak Settings
 
 Keycloak has a realm called ```SpringBootRealm```.
