@@ -6,7 +6,7 @@ Authentication service used with the examples in this repository is Keycloak ser
 
 ## Keycloak Settings
 
-Keycloak has a realm called SpringBootRealm.
+Keycloak has a realm called ```SpringBootRealm```.
 
 The realm has one user called ```duey``` who has a role called ```user``` assigned.
 
