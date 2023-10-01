@@ -24,7 +24,7 @@ authorization_payload = {
 }
 ducks_service_session = authorization_service.get_auth_session(data=authorization_payload, decoder=json.loads)
 
-response = oauth_session.get('/api/ducks/1')
+response = ducks_service_session.get('/api/ducks/1')
 
 response_json = response.json()
 print(response_json["uid"])

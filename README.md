@@ -30,3 +30,7 @@ The authorization request must contain ```client-id``` and ```client-secret```.
 
 The received token contains the role assignment of the client identified by ```client-id```.
 
+## Open Issues
+
+How to replace the grant type ```password``` in OAuth2.1? The ```authorization_code``` is the expected replacement, but it requires code changes, not only changing the value.
+
